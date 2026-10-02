@@ -1,0 +1,40 @@
+{
+  "name": "@proj-airi/font-departure-mono",
+  "type": "module",
+  "version": "0.12.0-beta.5",
+  "description": "Essential CSS for font, Departure Mono, used by Project AIRI",
+  "author": "文旅助手项目组",
+  "license": "MIT",
+  "homepage": "https://departuremono.com/",
+  "exports": {
+    ".": {
+      "default": "./dist/index.css"
+    },
+    "./index.css": {
+      "default": "./dist/index.css"
+    },
+    "./files/*": {
+      "default": "./dist/files/*"
+    },
+    "./files/*.ttf": {
+      "default": "./dist/files/*.ttf"
+    },
+    "./files/*.otf": {
+      "default": "./dist/files/*.otf"
+    },
+    "./files/*.woff": {
+      "default": "./dist/files/*.woff"
+    },
+    "./files/*.woff2": {
+      "default": "./dist/files/*.woff2"
+    },
+    "./*": {
+      "default": "./*.css"
+    }
+  },
+  "main": "./dist/index.css",
+  "scripts": {
+    "dev": "pnpm run build",
+    "build": "tsdown"
+  }
+}

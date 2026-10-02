@@ -1,0 +1,31 @@
+{
+  "name": "@proj-airi/ui",
+  "type": "module",
+  "version": "0.12.0-beta.5",
+  "description": "A collection of UI components that used by Project AIRI",
+  "author": "文旅助手项目组",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.ts",
+    "./main.css": "./src/main.css",
+    "./components/animations": "./src/components/animations/index.ts",
+    "./components/form": "./src/components/form/index.ts",
+    "./components/layouts": "./src/components/layouts/index.ts",
+    "./*": "./*"
+  },
+  "scripts": {
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "@moeru/std": "catalog:",
+    "@vueuse/core": "catalog:",
+    "floating-vue": "catalog:",
+    "reka-ui": "catalog:",
+    "vaul-vue": "catalog:",
+    "vue": "catalog:"
+  },
+  "devDependencies": {
+    "@vue-macros/volar": "catalog:",
+    "vue-tsc": "catalog:"
+  }
+}
