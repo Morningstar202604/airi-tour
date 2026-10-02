@@ -1,5 +1,5 @@
 export * from './client'
 export * from './codec'
 export * from './extension-peer'
-export type * from '@proj-airi/server-shared/types'
-export { ContextUpdateStrategy, WebSocketEventSource } from '@proj-airi/server-shared/types'
+export type * from '@wenlv/server-shared/types'
+export { ContextUpdateStrategy, WebSocketEventSource } from '@wenlv/server-shared/types'

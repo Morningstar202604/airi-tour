@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { ChatSessionsDrawer } from '@proj-airi/stage-ui/components/scenarios/chat'
-import { useChatSessionStore } from '@proj-airi/stage-ui/stores/chat/session-store'
-import { BasicButton } from '@proj-airi/ui'
+import { ChatSessionsDrawer } from '@wenlv/stage-ui/components/scenarios/chat'
+import { useChatSessionStore } from '@wenlv/stage-ui/stores/chat/session-store'
+import { BasicButton } from '@wenlv/ui'
 import { storeToRefs } from 'pinia'
 import { computed, ref } from 'vue'
 import { useI18n } from 'vue-i18n'

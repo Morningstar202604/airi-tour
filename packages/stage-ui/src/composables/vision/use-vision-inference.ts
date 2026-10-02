@@ -1,5 +1,5 @@
-import type { Conversation } from '@proj-airi/core-agent'
-import type { GenerationProvider } from '@proj-airi/provider-inference'
+import type { Conversation } from '@wenlv/core-agent'
+import type { GenerationProvider } from '@wenlv/provider-inference'
 
 import type { VisionWorkloadId } from './use-vision-workloads'
 

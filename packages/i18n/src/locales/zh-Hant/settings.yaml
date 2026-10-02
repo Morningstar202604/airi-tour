@@ -1051,16 +1051,16 @@ pages:
     provider:
       app-local-audio-transcription:
         title: 應用程式內（本機）
-        description: https://github.com/moeru-ai/xsai-transformers
+        description: 本地推理引擎（transformers.js）
       app-local-audio-speech:
         title: 應用程式內（本機）
-        description: https://github.com/moeru-ai/xsai-transformers
+        description: 本地推理引擎（transformers.js）
       browser-local-audio-transcription:
         title: 瀏覽器內（本機）
-        description: https://github.com/moeru-ai/xsai-transformers
+        description: 本地推理引擎（transformers.js）
       browser-local-audio-speech:
         title: 瀏覽器內（本機）
-        description: https://github.com/moeru-ai/xsai-transformers
+        description: 本地推理引擎（transformers.js）
       alibaba-cloud-model-studio:
         description: bailian.console.aliyun.com
         title: 阿里百煉

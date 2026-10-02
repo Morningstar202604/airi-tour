@@ -1,10 +1,10 @@
-import type { NewMessagesPayload, PullMessagesRequest, PullMessagesResponse, SendMessagesRequest, SendMessagesResponse } from '@proj-airi/server-sdk-shared/v2'
+import type { NewMessagesPayload, PullMessagesRequest, PullMessagesResponse, SendMessagesRequest, SendMessagesResponse } from '@wenlv/server-sdk-shared/v2'
 import type { ComputedRef, Ref } from 'vue'
 
 import { defineInvoke } from '@moeru/eventa'
 import { createContext as createWsContext, wsErrorEvent } from '@moeru/eventa/adapters/websocket/native'
 import { errorMessageFrom } from '@moeru/std'
-import { authenticate, newMessages, parseAuthenticateResponse, pullMessages, sendMessages } from '@proj-airi/server-sdk-shared/v2'
+import { authenticate, newMessages, parseAuthenticateResponse, pullMessages, sendMessages } from '@wenlv/server-sdk-shared/v2'
 import { useWebSocket } from '@vueuse/core'
 import { computed, ref, shallowRef, watch } from 'vue'
 

@@ -3,14 +3,14 @@ import type {
   Live2DExpressionLlmMode,
   Live2DExpressionSettingsCommand,
   Live2DMotionDriver,
-} from '@proj-airi/stage-ui-live2d'
-import type { SelectTabOption } from '@proj-airi/ui'
+} from '@wenlv/stage-ui-live2d'
+import type { SelectTabOption } from '@wenlv/ui'
 
 import type { ModelSettingsRuntimeSnapshot } from './runtime'
 
-import { defaultModelParameters, useExpressionStore, useLive2dParams, useSettingsLive2d } from '@proj-airi/stage-ui-live2d'
-import { OPFSCache } from '@proj-airi/stage-ui-live2d/utils/opfs-loader'
-import { Button, Checkbox, FieldCheckbox, FieldCombobox, FieldRange, SelectTab } from '@proj-airi/ui'
+import { defaultModelParameters, useExpressionStore, useLive2dParams, useSettingsLive2d } from '@wenlv/stage-ui-live2d'
+import { OPFSCache } from '@wenlv/stage-ui-live2d/utils/opfs-loader'
+import { Button, Checkbox, FieldCheckbox, FieldCombobox, FieldRange, SelectTab } from '@wenlv/ui'
 import { storeToRefs } from 'pinia'
 import { computed, onMounted, ref, watch } from 'vue'
 import { useI18n } from 'vue-i18n'

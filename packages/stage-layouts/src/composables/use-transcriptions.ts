@@ -1,9 +1,9 @@
 import type { MaybeRefOrGetter, Ref } from 'vue'
 
-import { useStreamingTranscriptionInput } from '@proj-airi/stage-ui/composables/use-streaming-transcription-input'
-import { useHearingSpeechInputPipeline, useHearingStore } from '@proj-airi/stage-ui/stores/modules/hearing'
-import { useProviderStore } from '@proj-airi/stage-ui/stores/providers/provider'
-import { useSettingsAudioDevice } from '@proj-airi/stage-ui/stores/settings'
+import { useStreamingTranscriptionInput } from '@wenlv/stage-ui/composables/use-streaming-transcription-input'
+import { useHearingSpeechInputPipeline, useHearingStore } from '@wenlv/stage-ui/stores/modules/hearing'
+import { useProviderStore } from '@wenlv/stage-ui/stores/providers/provider'
+import { useSettingsAudioDevice } from '@wenlv/stage-ui/stores/settings'
 import { until } from '@vueuse/core'
 import { storeToRefs } from 'pinia'
 import { nextTick, onScopeDispose, ref, toValue, useId, watch } from 'vue'

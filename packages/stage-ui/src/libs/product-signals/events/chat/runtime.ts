@@ -1,4 +1,4 @@
-import type { ChatOrchestratorRuntimeDeps } from '@proj-airi/core-agent'
+import type { ChatOrchestratorRuntimeDeps } from '@wenlv/core-agent'
 
 import type { ChatHistoryItem } from '../../../../types/chat'
 import type { AnalyticsRecorder } from '../../index'

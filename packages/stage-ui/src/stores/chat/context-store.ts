@@ -1,13 +1,13 @@
-import type { ContextHistoryEntry, ContextIngestResult, ContextMessage } from '@proj-airi/core-agent'
+import type { ContextHistoryEntry, ContextIngestResult, ContextMessage } from '@wenlv/core-agent'
 
-import { createContextRegistry } from '@proj-airi/core-agent'
-import { useLocalStorageManualReset } from '@proj-airi/stage-shared/composables'
+import { createContextRegistry } from '@wenlv/core-agent'
+import { useLocalStorageManualReset } from '@wenlv/stage-shared/composables'
 import { defineStore } from 'pinia'
 import { readonly, ref, toRaw } from 'vue'
 
 import { getEventSourceKey } from '../../utils/event-source'
 
-export type { ContextHistoryEntry, ContextIngestResult } from '@proj-airi/core-agent'
+export type { ContextHistoryEntry, ContextIngestResult } from '@wenlv/core-agent'
 
 /**
  * UI-facing view of one active context source bucket.

@@ -2,7 +2,7 @@ import type {
   ModulePermissionArea,
   ModulePermissionDeclaration,
   ModulePermissionGrant,
-} from '@proj-airi/plugin-protocol/types'
+} from '@wenlv/plugin-protocol/types'
 
 interface PermissionSnapshot {
   requested: ModulePermissionDeclaration

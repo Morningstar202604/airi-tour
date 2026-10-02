@@ -5,7 +5,7 @@ import { Rive } from '@rive-app/canvas-lite'
 import { breakpointsTailwind, useBreakpoints, useDark } from '@vueuse/core'
 import { computed, onMounted, ref, useTemplateRef, watch } from 'vue'
 
-import CircleFadeInAnimation from './assets/circle_blink_in_-_loading_(@proj-airi).riv'
+import CircleFadeInAnimation from './assets/circle_blink_in_-_loading_(@wenlv).riv'
 import CRT from './CRT.vue'
 import CRTLine from './CRTLine.vue'
 
@@ -118,11 +118,11 @@ const bootMessages = computed<BootMessage[]>(() => [
     withoutTimestamp: true,
   },
   {
-    template: 'Command line: BOOT_IMAGE=/boot/airi.moeru.ai root=UUID=io.github.moeru-ai.airi',
+    template: 'Command line: BOOT_IMAGE=/boot/xiaoyou root=UUID=io.github.x33834.airi-tour',
     typingSpeed: 1,
   },
   {
-    template: 'moeru-ai/NPU: Initialized power management',
+    template: 'xiaoyou/NPU: Initialized power management',
     typingSpeed: 1,
   },
   {

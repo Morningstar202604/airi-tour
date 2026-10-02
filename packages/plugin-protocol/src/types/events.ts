@@ -509,9 +509,9 @@ export enum MessageHeartbeat {
 }
 
 export enum WebSocketEventSource {
-  Server = 'proj-airi:server-runtime',
-  StageWeb = 'proj-airi:stage-web',
-  StageTamagotchi = 'proj-airi:stage-tamagotchi',
+  Server = 'wenlv:server-runtime',
+  StageWeb = 'wenlv:stage-web',
+  StageTamagotchi = 'wenlv:stage-tamagotchi',
 }
 
 interface InputSource {

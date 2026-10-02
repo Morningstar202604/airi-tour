@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import type { ChatHistoryItem, ErrorMessage } from '../../../../types/chat'
 
-import { isStageCapacitor, isStageWeb } from '@proj-airi/stage-shared'
-import { IconButton } from '@proj-airi/ui'
+import { isStageCapacitor, isStageWeb } from '@wenlv/stage-shared'
+import { IconButton } from '@wenlv/ui'
 import { computed } from 'vue'
 
 import { MarkdownRenderer } from '../../../markdown'

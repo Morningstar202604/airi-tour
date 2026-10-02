@@ -1,6 +1,6 @@
 import type { ChatHistoryItem } from '../../../../types/chat'
 
-import en from '@proj-airi/i18n/locales/en'
+import en from '@wenlv/i18n/locales/en'
 
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import { render } from 'vitest-browser-vue'

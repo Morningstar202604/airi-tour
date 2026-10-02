@@ -51,7 +51,7 @@ export interface SpeechOutputPlaybackState {
 /** Cross-renderer request for the active speech output host's playback state. */
 export const speechOutputGetPlaybackState = defineInvokeEventa<SpeechOutputPlaybackState>('eventa:audio:speech:output:get-playback-state')
 
-const BUS_CHANNEL_NAME = 'proj-airi:pipelines:outputs:speech'
+const BUS_CHANNEL_NAME = 'wenlv:pipelines:outputs:speech'
 
 let context: ReturnType<typeof createBroadcastChannelContext>['context'] | undefined
 let channel: BroadcastChannel | undefined

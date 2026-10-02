@@ -13,14 +13,14 @@ const mocks = vi.hoisted(() => ({
   remoteStreamSessionId: undefined as string | undefined,
 }))
 
-vi.mock('@proj-airi/stage-ui/stores/chat', () => ({
+vi.mock('@wenlv/stage-ui/stores/chat', () => ({
   useChatStore: () => ({
     activeSendSessionId: mocks.activeSendSessionId,
     cancelPendingSends: mocks.cancelPendingSends,
   }),
 }))
 
-vi.mock('@proj-airi/stage-ui/stores/mods/api/context-bridge', () => ({
+vi.mock('@wenlv/stage-ui/stores/mods/api/context-bridge', () => ({
   useContextBridgeStore: () => ({
     cancelRemoteStream: mocks.cancelRemoteStream,
     remoteStreamSessionId: mocks.remoteStreamSessionId,

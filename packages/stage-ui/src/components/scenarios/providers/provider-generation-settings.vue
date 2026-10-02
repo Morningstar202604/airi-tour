@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { errorMessageFrom } from '@moeru/std'
-import { FieldCheckbox, FieldCombobox } from '@proj-airi/ui'
+import { FieldCheckbox, FieldCombobox } from '@wenlv/ui'
 import { computedAsync } from '@vueuse/core'
 import { computed, ref } from 'vue'
 import { useI18n } from 'vue-i18n'

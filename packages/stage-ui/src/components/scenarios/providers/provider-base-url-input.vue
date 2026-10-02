@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { FieldInput } from '@proj-airi/ui'
+import { FieldInput } from '@wenlv/ui'
 
 const props = defineProps<{
   placeholder?: string

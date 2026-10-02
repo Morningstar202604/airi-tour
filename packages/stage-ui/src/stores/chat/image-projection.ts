@@ -1,4 +1,4 @@
-import type { Conversation } from '@proj-airi/core-agent'
+import type { Conversation } from '@wenlv/core-agent'
 
 import { Semaphore } from 'es-toolkit'
 

@@ -1,6 +1,6 @@
 import type { ContextSnapshot } from './context-prompt'
 
-import { ContextUpdateStrategy } from '@proj-airi/server-shared/types'
+import { ContextUpdateStrategy } from '@wenlv/server-shared/types'
 import { describe, expect, it } from 'vitest'
 
 import { buildContextPromptMessage, formatContextPromptText } from './context-prompt'

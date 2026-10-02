@@ -1,6 +1,6 @@
 import type {} from 'pinia-plugin-synced'
 
-import { useLocalStorageManualReset } from '@proj-airi/stage-shared/composables'
+import { useLocalStorageManualReset } from '@wenlv/stage-shared/composables'
 import { refManualReset } from '@vueuse/core'
 import { defineStore } from 'pinia'
 import { computed, watch } from 'vue'
@@ -89,7 +89,7 @@ export const useConsciousnessStore = defineStore('consciousness', () => {
   // deferred reset would wipe the model they just chose. Synchronous flush
   // makes "set provider, then set model" a safe, ordered operation.
   //
-  // Issue #1761: https://github.com/moeru-ai/airi/issues/1761
+  // Issue #1761（技术背景）
   // Localized fix: when the previous provider is empty (initial hydration
   // from localStorage, or the very first assignment) the model has just been
   // restored alongside the provider and must NOT be wiped; otherwise every

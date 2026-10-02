@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import type { ChatSessionsExport } from '@proj-airi/stage-ui/types/chat-session'
+import type { ChatSessionsExport } from '@wenlv/stage-ui/types/chat-session'
 
 import type { DataSettingsStatusEmits } from '../status'
 
-import { useAnalytics } from '@proj-airi/stage-ui/composables'
-import { useDataMaintenance } from '@proj-airi/stage-ui/composables/use-data-maintenance'
-import { Button, DoubleCheckButton } from '@proj-airi/ui'
+import { useAnalytics } from '@wenlv/stage-ui/composables'
+import { useDataMaintenance } from '@wenlv/stage-ui/composables/use-data-maintenance'
+import { Button, DoubleCheckButton } from '@wenlv/ui'
 import { shallowRef, useTemplateRef } from 'vue'
 import { useI18n } from 'vue-i18n'
 

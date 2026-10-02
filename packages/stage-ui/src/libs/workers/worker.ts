@@ -31,8 +31,8 @@ import {
   TextStreamer,
   WhisperForConditionalGeneration,
 } from '@huggingface/transformers'
-import { toFloat32FromPCM16 } from '@proj-airi/audio/encoding'
-import { errorMessageFromValue } from '@proj-airi/stage-shared'
+import { toFloat32FromPCM16 } from '@wenlv/audio/encoding'
+import { errorMessageFromValue } from '@wenlv/stage-shared'
 
 import { MODEL_IDS, MODEL_NAMES } from '../inference/constants'
 import { classifyError, isRecoverable } from '../inference/protocol'

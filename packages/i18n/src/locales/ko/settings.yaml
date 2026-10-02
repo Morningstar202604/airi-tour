@@ -1072,16 +1072,16 @@ pages:
     provider:
       app-local-audio-transcription:
         title: 앱 (로컬)
-        description: https://github.com/moeru-ai/xsai-transformers
+        description: 本地推理引擎（transformers.js）
       app-local-audio-speech:
         title: 앱 (로컬)
-        description: https://github.com/moeru-ai/xsai-transformers
+        description: 本地推理引擎（transformers.js）
       browser-local-audio-transcription:
         title: 브라우저 (로컬)
-        description: https://github.com/moeru-ai/xsai-transformers
+        description: 本地推理引擎（transformers.js）
       browser-local-audio-speech:
         title: 브라우저 (로컬)
-        description: https://github.com/moeru-ai/xsai-transformers
+        description: 本地推理引擎（transformers.js）
       alibaba-cloud-model-studio:
         description: bailian.console.aliyun.com
         title: Alibaba 클라우드 모델 스튜디오

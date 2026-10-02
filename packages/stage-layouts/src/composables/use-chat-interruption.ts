@@ -1,7 +1,7 @@
 import type { Ref } from 'vue'
 
-import { useChatStore } from '@proj-airi/stage-ui/stores/chat'
-import { useContextBridgeStore } from '@proj-airi/stage-ui/stores/mods/api/context-bridge'
+import { useChatStore } from '@wenlv/stage-ui/stores/chat'
+import { useContextBridgeStore } from '@wenlv/stage-ui/stores/mods/api/context-bridge'
 import { computed, ref } from 'vue'
 
 import { useStopSpeakingButton } from './useStopSpeakingButton'

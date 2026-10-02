@@ -9,8 +9,8 @@ import type { VoiceKey, Voices } from '../../../workers/kokoro/types'
 import type { AllocationToken } from '../gpu-resource-coordinator'
 import type { ProgressPayload } from '../protocol'
 
-import { toWav } from '@proj-airi/audio/encoding'
-import { defaultPerfTracer } from '@proj-airi/stage-shared'
+import { toWav } from '@wenlv/audio/encoding'
+import { defaultPerfTracer } from '@wenlv/stage-shared'
 import { Mutex } from 'async-mutex'
 
 import { removeInferenceStatus, updateInferenceStatus } from '../../../composables/use-inference-status'

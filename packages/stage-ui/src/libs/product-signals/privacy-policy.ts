@@ -1,4 +1,4 @@
-import { localeRemap } from '@proj-airi/i18n'
+import { localeRemap } from '@wenlv/i18n'
 
 const supportedPrivacyPolicyLocales = new Set([
   'en',

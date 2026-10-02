@@ -5,13 +5,13 @@ import {
   Alert,
   SpeechPlaygroundOpenAICompatible,
   SpeechProviderSettings,
-} from '@proj-airi/stage-ui/components'
-import { useProviderValidation } from '@proj-airi/stage-ui/composables/use-provider-validation'
-import { getDefinedProvider } from '@proj-airi/stage-ui/libs'
-import { useSpeechStore } from '@proj-airi/stage-ui/stores/modules/speech'
-import { useProviderConfigStore } from '@proj-airi/stage-ui/stores/providers/config'
-import { useProviderStore } from '@proj-airi/stage-ui/stores/providers/provider'
-import { FieldInput, FieldRange } from '@proj-airi/ui'
+} from '@wenlv/stage-ui/components'
+import { useProviderValidation } from '@wenlv/stage-ui/composables/use-provider-validation'
+import { getDefinedProvider } from '@wenlv/stage-ui/libs'
+import { useSpeechStore } from '@wenlv/stage-ui/stores/modules/speech'
+import { useProviderConfigStore } from '@wenlv/stage-ui/stores/providers/config'
+import { useProviderStore } from '@wenlv/stage-ui/stores/providers/provider'
+import { FieldInput, FieldRange } from '@wenlv/ui'
 import { computedAsync } from '@vueuse/core'
 import { storeToRefs } from 'pinia'
 import { computed, onMounted, ref, watch } from 'vue'

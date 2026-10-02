@@ -67,7 +67,7 @@ vi.mock('../../../../stores', async () => {
   return { useSettingsAudioDevice }
 })
 
-vi.mock('@proj-airi/ui', async () => {
+vi.mock('@wenlv/ui', async () => {
   const { defineComponent, h } = await vi.importActual<typeof import('vue')>('vue')
 
   return {

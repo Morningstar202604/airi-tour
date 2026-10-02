@@ -1,9 +1,9 @@
-import type { ChatToolCallRerunEvent } from '@proj-airi/stage-ui/stores/tool-call-rerun'
+import type { ChatToolCallRerunEvent } from '@wenlv/stage-ui/stores/tool-call-rerun'
 
 import { errorMessageFrom } from '@moeru/std'
-import { resolveLlmTools } from '@proj-airi/stage-ui/stores/ai/chat-llm/tool-resolver'
-import { useChatSessionStore } from '@proj-airi/stage-ui/stores/chat/session-store'
-import { executeToolCallRerun } from '@proj-airi/stage-ui/stores/tool-call-rerun'
+import { resolveLlmTools } from '@wenlv/stage-ui/stores/ai/chat-llm/tool-resolver'
+import { useChatSessionStore } from '@wenlv/stage-ui/stores/chat/session-store'
+import { executeToolCallRerun } from '@wenlv/stage-ui/stores/tool-call-rerun'
 
 export function useChatToolCallRerun() {
   const chatSession = useChatSessionStore()

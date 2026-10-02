@@ -1,6 +1,6 @@
-import type { ChatOrchestratorRuntimeState, ChatOrchestratorSendOptions, Conversation, StreamEvent, StreamOptions } from '@proj-airi/core-agent'
-import type { GenerationProvider } from '@proj-airi/provider-inference'
-import type { WebSocketEventInputs } from '@proj-airi/server-sdk'
+import type { ChatOrchestratorRuntimeState, ChatOrchestratorSendOptions, Conversation, StreamEvent, StreamOptions } from '@wenlv/core-agent'
+import type { GenerationProvider } from '@wenlv/provider-inference'
+import type { WebSocketEventInputs } from '@wenlv/server-sdk'
 import type { Message } from '@xsai/shared-chat'
 import type { SyncedPiniaRuntime } from 'pinia-plugin-synced'
 
@@ -8,8 +8,8 @@ import type { ChatHistoryItem, ChatToolReference, StreamingAssistantMessage } fr
 import type { ToolCallRerunPayload } from './tool-call-rerun'
 
 import { errorMessageFrom } from '@moeru/std'
-import { createChatOrchestratorRuntime, renderConversationPreview } from '@proj-airi/core-agent'
-import { IOAttributes, IOEvents, IOSpanNames, IOSubsystems } from '@proj-airi/stage-shared'
+import { createChatOrchestratorRuntime, renderConversationPreview } from '@wenlv/core-agent'
+import { IOAttributes, IOEvents, IOSpanNames, IOSubsystems } from '@wenlv/stage-shared'
 import { nanoid } from 'nanoid'
 import { defineStore, storeToRefs } from 'pinia'
 import { shallowRef, toRaw } from 'vue'
@@ -165,7 +165,7 @@ function retrySourceIndexFrom(messages: ChatHistoryItem[], index: number): numbe
   return -1
 }
 
-export type { QueuedSendSnapshot } from '@proj-airi/core-agent'
+export type { QueuedSendSnapshot } from '@wenlv/core-agent'
 
 export const useChatStore = defineStore('chat', () => {
   const { t } = useI18n()

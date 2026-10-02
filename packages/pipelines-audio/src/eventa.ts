@@ -10,24 +10,24 @@ import type {
 
 import { defineEventa } from '@moeru/eventa'
 
-export const speechSegmentEvent = defineEventa<TextSegment>('proj-airi:pipelines:output:speech:segment')
-export const speechSpecialEvent = defineEventa<TextSegment>('proj-airi:pipelines:output:speech:special')
+export const speechSegmentEvent = defineEventa<TextSegment>('wenlv:pipelines:output:speech:segment')
+export const speechSpecialEvent = defineEventa<TextSegment>('wenlv:pipelines:output:speech:special')
 
-export const speechTtsRequestEvent = defineEventa<TtsRequest>('proj-airi:pipelines:output:speech:tts-request')
-export const speechTtsResultEvent = defineEventa<TtsResult<unknown>>('proj-airi:pipelines:output:speech:tts-result')
+export const speechTtsRequestEvent = defineEventa<TtsRequest>('wenlv:pipelines:output:speech:tts-request')
+export const speechTtsResultEvent = defineEventa<TtsResult<unknown>>('wenlv:pipelines:output:speech:tts-result')
 
-export const speechPlaybackStartEvent = defineEventa<PlaybackStartEvent<unknown>>('proj-airi:pipelines:output:speech:playback-start')
-export const speechPlaybackEndEvent = defineEventa<PlaybackEndEvent<unknown>>('proj-airi:pipelines:output:speech:playback-end')
-export const speechPlaybackInterruptEvent = defineEventa<PlaybackInterruptEvent<unknown>>('proj-airi:pipelines:output:speech:playback-interrupt')
-export const speechPlaybackRejectEvent = defineEventa<PlaybackRejectEvent<unknown>>('proj-airi:pipelines:output:speech:playback-reject')
+export const speechPlaybackStartEvent = defineEventa<PlaybackStartEvent<unknown>>('wenlv:pipelines:output:speech:playback-start')
+export const speechPlaybackEndEvent = defineEventa<PlaybackEndEvent<unknown>>('wenlv:pipelines:output:speech:playback-end')
+export const speechPlaybackInterruptEvent = defineEventa<PlaybackInterruptEvent<unknown>>('wenlv:pipelines:output:speech:playback-interrupt')
+export const speechPlaybackRejectEvent = defineEventa<PlaybackRejectEvent<unknown>>('wenlv:pipelines:output:speech:playback-reject')
 
-export const speechIntentStartEvent = defineEventa<string>('proj-airi:pipelines:output:speech:intent-start')
-export const speechIntentEndEvent = defineEventa<string>('proj-airi:pipelines:output:speech:intent-end')
-export const speechIntentCancelEvent = defineEventa<{ intentId: string, reason?: string }>('proj-airi:pipelines:output:speech:intent-cancel')
+export const speechIntentStartEvent = defineEventa<string>('wenlv:pipelines:output:speech:intent-start')
+export const speechIntentEndEvent = defineEventa<string>('wenlv:pipelines:output:speech:intent-end')
+export const speechIntentCancelEvent = defineEventa<{ intentId: string, reason?: string }>('wenlv:pipelines:output:speech:intent-cancel')
 
-export const speechTurnStartEvent = defineEventa<string>('proj-airi:pipelines:output:speech:turn-start')
-export const speechTurnEndEvent = defineEventa<string>('proj-airi:pipelines:output:speech:turn-end')
-export const speechTurnCancelEvent = defineEventa<{ turnId: string, reason?: string }>('proj-airi:pipelines:output:speech:turn-cancel')
+export const speechTurnStartEvent = defineEventa<string>('wenlv:pipelines:output:speech:turn-start')
+export const speechTurnEndEvent = defineEventa<string>('wenlv:pipelines:output:speech:turn-end')
+export const speechTurnCancelEvent = defineEventa<{ turnId: string, reason?: string }>('wenlv:pipelines:output:speech:turn-cancel')
 
 export const speechPipelineEventMap = {
   onSegment: speechSegmentEvent,

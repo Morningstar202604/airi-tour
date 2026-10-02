@@ -3,7 +3,7 @@ import type { ProviderMetadata } from '../../../../libs/providers/metadata'
 import type { OnboardingStepNextHandler, OnboardingStepPrevHandler } from './types'
 
 import { errorMessageFrom } from '@moeru/std'
-import { Button, Callout, FieldCheckbox, FieldInput, ScrollableArea } from '@proj-airi/ui'
+import { Button, Callout, FieldCheckbox, FieldInput, ScrollableArea } from '@wenlv/ui'
 import { computedAsync } from '@vueuse/core'
 import { computed, ref, watch } from 'vue'
 import { useI18n } from 'vue-i18n'

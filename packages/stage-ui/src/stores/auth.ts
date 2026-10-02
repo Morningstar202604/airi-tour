@@ -2,7 +2,7 @@ import type { Session, User } from 'better-auth'
 import type {} from 'pinia-plugin-synced'
 
 import { errorMessageFrom } from '@moeru/std'
-import { isStageTamagotchi } from '@proj-airi/stage-shared'
+import { isStageTamagotchi } from '@wenlv/stage-shared'
 import { useTimeoutFn, whenever } from '@vueuse/core'
 import { defineStore } from 'pinia'
 import { computed, ref, watch } from 'vue'

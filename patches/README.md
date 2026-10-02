@@ -19,7 +19,7 @@ This patch fixes behavior in the published SDK. AIRI's protocol and billing code
 
 Browser regressions are in `packages/provider-inference/src/responses.browser.test.ts`. Core integration tests use the real patched SDK with synthetic HTTP responses in `packages/core-agent/src/runtime/responses.test.ts`.
 
-The patch changes `dist` because the npm artifact ships compiled code. To contribute upstream, port these changes to the corresponding sources in [xsAI](https://github.com/moeru-ai/xsai), then run the same regressions. No upstream PR has been opened.
+The patch changes `dist` because the npm artifact ships compiled code. To contribute upstream, port these changes to the corresponding sources upstream, then run the same regressions. No upstream PR has been opened.
 
 Remove the patch when an upstream release passes these tests and provides the Item type export. Recheck incomplete-response behavior before removal: AIRI treats an incomplete turn as a failure.
 

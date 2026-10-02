@@ -1,4 +1,4 @@
-import type { Live2DExpressionSettingsSnapshot } from '@proj-airi/stage-ui-live2d/stores/expression-store'
+import type { Live2DExpressionSettingsSnapshot } from '@wenlv/stage-ui-live2d/stores/expression-store'
 
 import type { StageModelRenderer } from '../../../../stores/settings/stage-model'
 

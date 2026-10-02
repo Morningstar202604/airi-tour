@@ -1,10 +1,10 @@
-import type { ccv3 } from '@proj-airi/ccc'
+import type { ccv3 } from '@wenlv/ccc'
 
 import type { AiriCard, AiriExtension } from '../types/airiCard'
 
 import JSZip from 'jszip'
 
-import { exportToJSON } from '@proj-airi/ccc'
+import { exportToJSON } from '@wenlv/ccc'
 import { createPinia, setActivePinia } from 'pinia'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 

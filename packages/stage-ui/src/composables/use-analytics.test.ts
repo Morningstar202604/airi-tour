@@ -12,7 +12,7 @@ const analyticsMocks = vi.hoisted(() => ({
   captureMock: vi.fn(),
 }))
 
-vi.mock('@proj-airi/stage-shared', () => ({
+vi.mock('@wenlv/stage-shared', () => ({
   getStage: () => analyticsMocks.isStageTamagotchiMock()
     ? 'tamagotchi'
     : analyticsMocks.isStageCapacitorMock()

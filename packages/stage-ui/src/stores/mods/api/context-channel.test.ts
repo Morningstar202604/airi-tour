@@ -1,4 +1,4 @@
-import { ContextUpdateStrategy } from '@proj-airi/server-sdk'
+import { ContextUpdateStrategy } from '@wenlv/server-sdk'
 import { afterEach, describe, expect, it, vi } from 'vitest'
 
 import { createContextChannel } from './context-channel'

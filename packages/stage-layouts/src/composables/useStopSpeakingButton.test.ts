@@ -10,13 +10,13 @@ const setSpeechMutedMock = vi.fn()
 const trackSpeechMuteToggledMock = vi.fn()
 const trackTtsStopClickedMock = vi.fn()
 
-vi.mock('@proj-airi/stage-ui/stores/audio', () => ({
+vi.mock('@wenlv/stage-ui/stores/audio', () => ({
   useSpeakingStore: () => ({
     nowSpeaking,
   }),
 }))
 
-vi.mock('@proj-airi/stage-ui/stores/speech-output-control', () => ({
+vi.mock('@wenlv/stage-ui/stores/speech-output-control', () => ({
   useSpeechOutputControlStore: () => ({
     requestStopSpeaking: requestStopSpeakingMock,
     setSpeechMuted: setSpeechMutedMock,
@@ -24,7 +24,7 @@ vi.mock('@proj-airi/stage-ui/stores/speech-output-control', () => ({
   }),
 }))
 
-vi.mock('@proj-airi/stage-ui/composables/use-analytics', () => ({
+vi.mock('@wenlv/stage-ui/composables/use-analytics', () => ({
   useAnalytics: () => ({
     trackSpeechMuteToggled: trackSpeechMuteToggledMock,
     trackTtsStopClicked: trackTtsStopClickedMock,

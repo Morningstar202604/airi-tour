@@ -1,5 +1,5 @@
 {
-  "name": "@proj-airi/stage-shared",
+  "name": "@wenlv/stage-shared",
   "type": "module",
   "private": true,
   "description": "Shared",

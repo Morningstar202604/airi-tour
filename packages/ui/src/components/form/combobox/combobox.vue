@@ -129,7 +129,7 @@ function toCssSize(value?: string | number): string | undefined {
           // NOTICE: DialogContent/DialogOverlay use z-[9999], and DrawerContent uses z-[1000].
           // ComboboxContent must render above these layers so that dropdowns inside
           // Dialog/Drawer are not hidden behind the overlay or dismissed unexpectedly.
-          // Read more at: https://github.com/moeru-ai/airi/issues/1136
+          // 参见上游 issue 讨论
           'z-[10010]',
           'w-full overflow-hidden rounded-xl shadow-sm border will-change-[opacity,transform]',
           'data-[side=top]:animate-slideDownAndFade data-[side=right]:animate-slideLeftAndFade data-[side=bottom]:animate-slideUpAndFade data-[side=left]:animate-slideRightAndFade',

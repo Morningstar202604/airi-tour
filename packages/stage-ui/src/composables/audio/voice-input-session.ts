@@ -3,7 +3,7 @@ import type { MaybeRefOrGetter } from 'vue'
 import type { VoiceInputRecordingSegment, VoiceInputSessionTrigger } from './voice-input-segment'
 import type { VoiceInputTranscriptionTicket } from './voice-input-transcription-chain'
 
-import { toWav } from '@proj-airi/audio/encoding'
+import { toWav } from '@wenlv/audio/encoding'
 import { computed, ref, shallowRef, toRef } from 'vue'
 
 import workletUrl from '../../workers/vad/process.worklet?worker&url'

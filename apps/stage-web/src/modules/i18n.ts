@@ -1,6 +1,6 @@
-import messages from '@proj-airi/i18n/locales'
+import messages from '@wenlv/i18n/locales'
 
-import { resolveSupportedLocale } from '@proj-airi/i18n'
+import { resolveSupportedLocale } from '@wenlv/i18n'
 import { createI18n } from 'vue-i18n'
 
 function getLocale() {

@@ -3,7 +3,7 @@ import type {
   AmbientLightEnvironment,
   AmbientLightFilterOptions,
   ScreenAmbientLightMode,
-} from '@proj-airi/stage-shared/screen-ambient-light'
+} from '@wenlv/stage-shared/screen-ambient-light'
 
 import { errorMessageFrom } from '@moeru/std'
 import { Application } from '@pixi/app'

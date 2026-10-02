@@ -2,7 +2,7 @@
 import type { BugReportDialogSubmitPayload } from '../scenarios/dialogs/bug-report/types'
 
 import { errorMessageFrom } from '@moeru/std'
-import { Button, ContainerError } from '@proj-airi/ui'
+import { Button, ContainerError } from '@wenlv/ui'
 import { useClipboard } from '@vueuse/core'
 import { shallowRef } from 'vue'
 import { useI18n } from 'vue-i18n'

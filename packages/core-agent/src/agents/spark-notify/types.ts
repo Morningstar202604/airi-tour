@@ -1,5 +1,5 @@
-import type { GenerationProvider } from '@proj-airi/provider-inference'
-import type { WebSocketEventOf } from '@proj-airi/server-sdk'
+import type { GenerationProvider } from '@wenlv/provider-inference'
+import type { WebSocketEventOf } from '@wenlv/server-sdk'
 import type { Tool, ToolChoice } from '@xsai/shared-chat'
 
 import type { Conversation } from '../../messages/types'

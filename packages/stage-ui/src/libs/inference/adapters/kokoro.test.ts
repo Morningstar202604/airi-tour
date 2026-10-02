@@ -50,8 +50,8 @@ vi.mock('../coordinator', () => ({
   MODEL_VRAM_ESTIMATES: {},
 }))
 
-vi.mock('@proj-airi/stage-shared', async (importOriginal) => {
-  const actual = await importOriginal<typeof import('@proj-airi/stage-shared')>()
+vi.mock('@wenlv/stage-shared', async (importOriginal) => {
+  const actual = await importOriginal<typeof import('@wenlv/stage-shared')>()
   return {
     ...actual,
     defaultPerfTracer: {

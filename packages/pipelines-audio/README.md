@@ -1,4 +1,4 @@
-# @proj-airi/pipelines-audio
+# @wenlv/pipelines-audio
 
 Shared audio-pipeline orchestration for AIRI. The package owns reusable streaming, playback, text-chunking, and transcript-buffering policies without depending on an application UI.
 
@@ -12,12 +12,12 @@ Shared audio-pipeline orchestration for AIRI. The package owns reusable streamin
 
 - Vue or Electron lifecycle state.
 - Provider credentials and product-specific error UI.
-- Raw audio encoding utilities, which belong in `@proj-airi/audio`.
+- Raw audio encoding utilities, which belong in `@wenlv/audio`.
 
 ## Transcript buffering
 
 ```ts
-import { createTranscriptBuffer } from '@proj-airi/pipelines-audio'
+import { createTranscriptBuffer } from '@wenlv/pipelines-audio'
 
 const buffer = createTranscriptBuffer({
   flushDelayMs: 1200,

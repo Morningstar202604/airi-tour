@@ -1,12 +1,12 @@
 /**
  * 本地模式 API 客户端（占位实现）
  *
- * 上游版本通过 `@proj-airi/api-server`（托管后端）提供 Hono 客户端类型。
+ * 上游版本通过 `@wenlv/api-server`（托管后端）提供 Hono 客户端类型。
  * 文旅助手版已裁剪托管后端，聊天/语音/角色/设置全部在本地（浏览器）运行。
  *
  * 此客户端仅保留与上游一致的「调用形状」，用于类型兼容：
  * - 未配置 VITE_SERVER_URL 时，远程调用不会发起（相关页面会优雅降级）；
- * - 未来如需接入自建后端，可恢复 `@proj-airi/api-server` 的 AppType 类型。
+ * - 未来如需接入自建后端，可恢复 `@wenlv/api-server` 的 AppType 类型。
  *
  * 远程服务接口见：
  * - CharactersRemoteClient（services/characters.ts）

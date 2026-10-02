@@ -16,7 +16,7 @@ const audioDeviceMock = vi.hoisted(() => ({
   askPermission: vi.fn(),
 }))
 
-vi.mock('@proj-airi/stage-shared/composables', async () => {
+vi.mock('@wenlv/stage-shared/composables', async () => {
   const vue = await vi.importActual<typeof import('vue')>('vue')
 
   return {

@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import type { Live2DEyeFocusSource } from '../../composables/live2d'
 
-import { useScreenAmbientLightEnvironment, useSettingsScreenAmbientLight } from '@proj-airi/stage-shared/stores/screen-ambient-light'
-import { Screen } from '@proj-airi/ui'
+import { useScreenAmbientLightEnvironment, useSettingsScreenAmbientLight } from '@wenlv/stage-shared/stores/screen-ambient-light'
+import { Screen } from '@wenlv/ui'
 import { storeToRefs } from 'pinia'
 import { computed, onUnmounted, ref, watch } from 'vue'
 

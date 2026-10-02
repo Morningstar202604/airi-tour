@@ -3,7 +3,7 @@ import type {
   ClientConnector,
   PrepareContext,
   ReconnectOptions,
-} from '@proj-airi/better-ws'
+} from '@wenlv/better-ws'
 import type {
   ExtensionIdentity,
   ExtensionModuleIdentity,
@@ -13,17 +13,17 @@ import type {
   WebSocketEvent,
   WebSocketEventOptionalSource,
   WebSocketEvents,
-} from '@proj-airi/server-shared/types'
+} from '@wenlv/server-shared/types'
 
 import { errorMessageFrom } from '@moeru/std'
-import { createClient as createBetterWsClient } from '@proj-airi/better-ws'
-import { createCrossWsConnector } from '@proj-airi/better-ws/client/crossws'
-import { isTerminalAuthenticationServerErrorMessage, parseServerErrorMessage } from '@proj-airi/server-shared'
-import { MessageHeartbeat, MessageHeartbeatKind } from '@proj-airi/server-shared/types'
+import { createClient as createBetterWsClient } from '@wenlv/better-ws'
+import { createCrossWsConnector } from '@wenlv/better-ws/client/crossws'
+import { isTerminalAuthenticationServerErrorMessage, parseServerErrorMessage } from '@wenlv/server-shared'
+import { MessageHeartbeat, MessageHeartbeatKind } from '@wenlv/server-shared/types'
 
 import { parseEvent, stringifyEvent } from './codec'
 
-export type { ClientConnector, ClientEvents } from '@proj-airi/better-ws'
+export type { ClientConnector, ClientEvents } from '@wenlv/better-ws'
 
 export type ClientStatus
   = | 'idle'

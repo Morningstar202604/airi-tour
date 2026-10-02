@@ -5,11 +5,11 @@ import type { UnElevenLabsOptions } from 'unspeech'
 import {
   SpeechPlayground,
   SpeechProviderSettings,
-} from '@proj-airi/stage-ui/components'
-import { useSpeechStore } from '@proj-airi/stage-ui/stores/modules/speech'
-import { useProviderConfigStore } from '@proj-airi/stage-ui/stores/providers/config'
-import { useProviderStore } from '@proj-airi/stage-ui/stores/providers/provider'
-import { FieldInput, FieldRange } from '@proj-airi/ui'
+} from '@wenlv/stage-ui/components'
+import { useSpeechStore } from '@wenlv/stage-ui/stores/modules/speech'
+import { useProviderConfigStore } from '@wenlv/stage-ui/stores/providers/config'
+import { useProviderStore } from '@wenlv/stage-ui/stores/providers/provider'
+import { FieldInput, FieldRange } from '@wenlv/ui'
 import { watchDebounced } from '@vueuse/core'
 import { cloneDeep } from 'es-toolkit'
 import { storeToRefs } from 'pinia'

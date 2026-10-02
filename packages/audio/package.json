@@ -1,5 +1,5 @@
 {
-  "name": "@proj-airi/audio",
+  "name": "@wenlv/audio",
   "type": "module",
   "private": true,
   "description": "Audio processing utilities for Project AIRI",

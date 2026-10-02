@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { HearingConfig } from '@proj-airi/stage-ui/components'
-import { useAuthStore } from '@proj-airi/stage-ui/stores/auth'
-import { useSettingsAudioDevice } from '@proj-airi/stage-ui/stores/settings'
-import { BasicButton, BottomDrawer, Checkbox, GhostButton, useTheme } from '@proj-airi/ui'
+import { HearingConfig } from '@wenlv/stage-ui/components'
+import { useAuthStore } from '@wenlv/stage-ui/stores/auth'
+import { useSettingsAudioDevice } from '@wenlv/stage-ui/stores/settings'
+import { BasicButton, BottomDrawer, Checkbox, GhostButton, useTheme } from '@wenlv/ui'
 import { shallowRef, watch } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { RouterLink } from 'vue-router'

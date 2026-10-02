@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import type { Live2DExpressionSettingsCommand } from '@proj-airi/stage-ui-live2d/stores/expression-store'
+import type { Live2DExpressionSettingsCommand } from '@wenlv/stage-ui-live2d/stores/expression-store'
 
 import type { DisplayModel } from '../../../../stores/display-models'
 import type { ModelSettingsRuntimeSnapshot } from './runtime'
 
-import { Button, Callout, ScrollableArea } from '@proj-airi/ui'
+import { Button, Callout, ScrollableArea } from '@wenlv/ui'
 import { storeToRefs } from 'pinia'
 import { computed, ref } from 'vue'
 import { useI18n } from 'vue-i18n'

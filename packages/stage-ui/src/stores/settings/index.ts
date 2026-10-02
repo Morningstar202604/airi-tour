@@ -1,4 +1,4 @@
-import { useTachie } from '@proj-airi/stage-ui-tachie'
+import { useTachie } from '@wenlv/stage-ui-tachie'
 import { defineStore, storeToRefs } from 'pinia'
 
 import { useSettingsAnalytics } from './analytics'

@@ -60,7 +60,7 @@ in the editor; importing or saving an unrelated card field does not change it.
 Register the shared plugin once in each Vue application:
 
 ```ts
-import { trackButtonPlugin } from '@proj-airi/stage-ui/directives/track-button'
+import { trackButtonPlugin } from '@wenlv/stage-ui/directives/track-button'
 
 createApp(App)
   .use(trackButtonPlugin)
@@ -85,7 +85,7 @@ in their owning business flows instead of attaching them to the initial click.
 https://histoire.dev/
 
 ```shell
-pnpm -F @proj-airi/stage-ui run story:dev
+pnpm -F @wenlv/stage-ui run story:dev
 ```
 
 The **Misc → Swipe Actions** story renders one row with two start actions and three end actions. Its **Show labels** control switches between

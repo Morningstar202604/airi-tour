@@ -1,4 +1,4 @@
-import type { Card } from '@proj-airi/ccc'
+import type { Card } from '@wenlv/ccc'
 
 /**
  * AIRI-specific runtime configuration embedded in a character card.

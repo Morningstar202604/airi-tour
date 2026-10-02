@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { RemovableRef } from '@vueuse/core'
 
-import { errorMessageFromValue } from '@proj-airi/stage-shared'
+import { errorMessageFromValue } from '@wenlv/stage-shared'
 import {
   ProviderAdvancedSettings,
   ProviderBaseUrlInput,
@@ -9,11 +9,11 @@ import {
   ProviderSettingsContainer,
   ProviderSettingsLayout,
   ProviderValidationAlerts,
-} from '@proj-airi/stage-ui/components'
-import { useProviderValidation } from '@proj-airi/stage-ui/composables/use-provider-validation'
-import { useProviderConfigStore } from '@proj-airi/stage-ui/stores/providers/config'
-import { useProviderStore } from '@proj-airi/stage-ui/stores/providers/provider'
-import { FieldCombobox, FieldKeyValues } from '@proj-airi/ui'
+} from '@wenlv/stage-ui/components'
+import { useProviderValidation } from '@wenlv/stage-ui/composables/use-provider-validation'
+import { useProviderConfigStore } from '@wenlv/stage-ui/stores/providers/config'
+import { useProviderStore } from '@wenlv/stage-ui/stores/providers/provider'
+import { FieldCombobox, FieldKeyValues } from '@wenlv/ui'
 import { storeToRefs } from 'pinia'
 import { computed, onMounted, ref, watch } from 'vue'
 

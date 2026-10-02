@@ -1,4 +1,4 @@
-import type { Generator } from '@proj-airi/motion-driver-magic'
+import type { Generator } from '@wenlv/motion-driver-magic'
 
 import type { Pose } from './pose'
 

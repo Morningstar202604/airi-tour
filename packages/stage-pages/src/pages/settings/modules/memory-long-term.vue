@@ -2,7 +2,7 @@
 import { RouterLink } from 'vue-router'
 
 import { ref } from 'vue'
-import { AUTO_SEDIMENT_KEY, clearAutoKnowledgeItems, countAutoKnowledgeItems, isAutoSedimentEnabled } from '@proj-airi/stage-ui/constants/tour/tour-knowledge'
+import { AUTO_SEDIMENT_KEY, clearAutoKnowledgeItems, countAutoKnowledgeItems, isAutoSedimentEnabled } from '@wenlv/stage-ui/constants/tour/tour-knowledge'
 import { useI18n } from 'vue-i18n'
 
 const { t } = useI18n()

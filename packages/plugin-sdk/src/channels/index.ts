@@ -2,7 +2,7 @@ import type { EventContext } from '@moeru/eventa'
 import type {
   ExtensionIdentity,
   ExtensionModuleIdentity,
-} from '@proj-airi/plugin-protocol/types'
+} from '@wenlv/plugin-protocol/types'
 
 import { createContext } from '@moeru/eventa'
 

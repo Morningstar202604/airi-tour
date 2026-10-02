@@ -1,5 +1,5 @@
 {
-  "name": "@proj-airi/stage-ui-tachie",
+  "name": "@wenlv/stage-ui-tachie",
   "type": "module",
   "private": true,
   "description": "Tachie static image scene components and stores for Project AIRI",
@@ -26,8 +26,8 @@
     "@pixi/core": "catalog:",
     "@pixi/extensions": "catalog:",
     "@pixi/sprite": "catalog:",
-    "@proj-airi/stage-shared": "workspace:^",
-    "@proj-airi/ui": "workspace:^",
+    "@wenlv/stage-shared": "workspace:^",
+    "@wenlv/ui": "workspace:^",
     "culori": "catalog:",
     "fflate": "catalog:",
     "pinia": "catalog:",

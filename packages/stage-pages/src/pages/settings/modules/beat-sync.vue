@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { BeatSyncDetectorState } from '@proj-airi/stage-shared/beat-sync'
+import type { BeatSyncDetectorState } from '@wenlv/stage-shared/beat-sync'
 
 import {
   DEFAULT_BEAT_SYNC_PARAMETERS,
@@ -9,10 +9,10 @@ import {
   listenBeatSyncStateChange,
   toggleBeatSync,
   updateBeatSyncParameters,
-} from '@proj-airi/stage-shared/beat-sync'
-import { Alert, AudioSpectrumVisualizer } from '@proj-airi/stage-ui/components'
-import { useSettingsBeatSync } from '@proj-airi/stage-ui/stores/settings'
-import { Button, FieldCheckbox, FieldRange, SelectTab } from '@proj-airi/ui'
+} from '@wenlv/stage-shared/beat-sync'
+import { Alert, AudioSpectrumVisualizer } from '@wenlv/stage-ui/components'
+import { useSettingsBeatSync } from '@wenlv/stage-ui/stores/settings'
+import { Button, FieldCheckbox, FieldRange, SelectTab } from '@wenlv/ui'
 import { createTimeline } from 'animejs'
 import { nanoid } from 'nanoid'
 import { storeToRefs } from 'pinia'

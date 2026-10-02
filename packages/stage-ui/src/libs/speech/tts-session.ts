@@ -1,4 +1,4 @@
-import type { IntentHandle, IntentOptions, PlaybackItem } from '@proj-airi/pipelines-audio'
+import type { IntentHandle, IntentOptions, PlaybackItem } from '@wenlv/pipelines-audio'
 
 import type { StreamingTtsPipelineOptions } from './streaming-pipeline'
 

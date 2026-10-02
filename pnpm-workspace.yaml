@@ -9,7 +9,7 @@ minimumReleaseAgeExclude:
   - electron-builder-squirrel-windows@26.16.1
   - electron-builder@26.16.1
   - '@moeru/*'
-  - '@proj-airi/*'
+  - '@wenlv/*'
   - '@vishot/*'
   - '@xsai/*'
   - '@xsai-apple-speech/*'
@@ -174,11 +174,9 @@ catalog:
   '@pixiv/three-vrm-animation': ^3.5.5
   '@pixiv/three-vrm-core': ^3.5.5
   '@pnpm/find-workspace-dir': ^1000.1.5
-  '@proj-airi/chromatic': ^1.1.4
   '@proj-airi/drizzle-duckdb-wasm': ^0.6.0
   '@proj-airi/iconify-meteocons': ^0.1.5
   '@proj-airi/lobe-icons': ^1.0.19
-  '@proj-airi/unocss-preset-chromatic': ^1.1.4
   '@proj-airi/unplugin-fetch': ^0.2.3
   '@proj-airi/unplugin-live2d-sdk': ^0.1.7
   '@radix-ui/colors': ^3.0.0

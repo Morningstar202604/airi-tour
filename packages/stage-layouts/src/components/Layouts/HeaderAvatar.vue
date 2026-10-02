@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { signOut } from '@proj-airi/stage-ui/libs/auth'
-import { useAuthStore } from '@proj-airi/stage-ui/stores/auth'
-import { AnimatedContent, Avatar } from '@proj-airi/ui'
+import { signOut } from '@wenlv/stage-ui/libs/auth'
+import { useAuthStore } from '@wenlv/stage-ui/stores/auth'
+import { AnimatedContent, Avatar } from '@wenlv/ui'
 import { storeToRefs } from 'pinia'
 import {
   DropdownMenuContent,

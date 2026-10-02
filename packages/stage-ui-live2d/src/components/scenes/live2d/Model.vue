@@ -6,13 +6,13 @@ import type {
   AmbientLightFilterOptions,
   NormalizedRectangle,
   ScreenAmbientLightMode,
-} from '@proj-airi/stage-shared/screen-ambient-light'
+} from '@wenlv/stage-shared/screen-ambient-light'
 
 import type { PixiLive2DInternalModel } from '../../../composables/live2d'
 
-import { listenBeatSyncBeatSignal } from '@proj-airi/stage-shared/beat-sync'
-import { ambientLightDefaults, ambientLightNeutralEnvironment, ambientLightPerceptualLevel, wholeWindowRectangle } from '@proj-airi/stage-shared/screen-ambient-light'
-import { useTheme } from '@proj-airi/ui'
+import { listenBeatSyncBeatSignal } from '@wenlv/stage-shared/beat-sync'
+import { ambientLightDefaults, ambientLightNeutralEnvironment, ambientLightPerceptualLevel, wholeWindowRectangle } from '@wenlv/stage-shared/screen-ambient-light'
+import { useTheme } from '@wenlv/ui'
 import { until } from '@vueuse/core'
 import { animate } from 'animejs'
 import { formatHex } from 'culori'

@@ -11,12 +11,12 @@ import {
   ProviderSettingsContainer,
   ProviderSettingsLayout,
   TranscriptionPlayground,
-} from '@proj-airi/stage-ui/components'
-import { useProviderValidation } from '@proj-airi/stage-ui/composables/use-provider-validation'
-import { useHearingStore } from '@proj-airi/stage-ui/stores/modules/hearing'
-import { useProviderConfigStore } from '@proj-airi/stage-ui/stores/providers/config'
-import { useProviderStore } from '@proj-airi/stage-ui/stores/providers/provider'
-import { FieldCombobox } from '@proj-airi/ui'
+} from '@wenlv/stage-ui/components'
+import { useProviderValidation } from '@wenlv/stage-ui/composables/use-provider-validation'
+import { useHearingStore } from '@wenlv/stage-ui/stores/modules/hearing'
+import { useProviderConfigStore } from '@wenlv/stage-ui/stores/providers/config'
+import { useProviderStore } from '@wenlv/stage-ui/stores/providers/provider'
+import { FieldCombobox } from '@wenlv/ui'
 import { storeToRefs } from 'pinia'
 import { computed, onMounted } from 'vue'
 

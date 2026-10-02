@@ -1,8 +1,8 @@
-import type { StreamOptions } from '@proj-airi/core-agent'
-import type { WebSocketEvents } from '@proj-airi/server-sdk'
+import type { StreamOptions } from '@wenlv/core-agent'
+import type { WebSocketEvents } from '@wenlv/server-sdk'
 import type { Tool } from '@xsai/shared-chat'
 
-import { createSparkCommandTool } from '@proj-airi/core-agent/agents/spark-command'
+import { createSparkCommandTool } from '@wenlv/core-agent/agents/spark-command'
 import { uniqBy } from 'es-toolkit'
 
 import { createWebSearchTools, debug, mcp } from '../../../tools'

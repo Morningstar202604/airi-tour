@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { SpeechProviderSettings } from '@proj-airi/stage-ui/components'
+import { SpeechProviderSettings } from '@wenlv/stage-ui/components'
 </script>
 
 <template>

@@ -454,7 +454,7 @@ describe('for ExtensionHost', () => {
             { key: 'kit.cleanup-failure', actions: ['invoke'] },
           ],
           resources: [
-            { key: 'proj-airi:plugin-sdk:resources:kits:kit.cleanup-failure:bindings', actions: ['write'] },
+            { key: 'wenlv:plugin-sdk:resources:kits:kit.cleanup-failure:bindings', actions: ['write'] },
           ],
         },
         entrypoints: {},
@@ -496,7 +496,7 @@ describe('for ExtensionHost', () => {
         { key: 'kit.module-dispose', actions: ['invoke'] },
       ],
       resources: [
-        { key: 'proj-airi:plugin-sdk:resources:kits:kit.module-dispose:bindings', actions: ['write'] },
+        { key: 'wenlv:plugin-sdk:resources:kits:kit.module-dispose:bindings', actions: ['write'] },
       ],
     }
     const extension = defineExtension({
@@ -1077,14 +1077,14 @@ describe('for ExtensionHost', () => {
 describe('for FileSystemLoader', () => {
   const testPermissions: ModulePermissionDeclaration = {
     apis: [
-      { key: 'proj-airi:plugin-sdk:apis:protocol:capabilities:wait', actions: ['invoke'] },
-      { key: 'proj-airi:plugin-sdk:apis:protocol:resources:providers:list-providers', actions: ['invoke'] },
+      { key: 'wenlv:plugin-sdk:apis:protocol:capabilities:wait', actions: ['invoke'] },
+      { key: 'wenlv:plugin-sdk:apis:protocol:resources:providers:list-providers', actions: ['invoke'] },
     ],
     resources: [
-      { key: 'proj-airi:plugin-sdk:apis:protocol:resources:providers:list-providers', actions: ['read'] },
+      { key: 'wenlv:plugin-sdk:apis:protocol:resources:providers:list-providers', actions: ['read'] },
     ],
     capabilities: [
-      { key: 'proj-airi:plugin-sdk:apis:protocol:resources:providers:list-providers', actions: ['wait'] },
+      { key: 'wenlv:plugin-sdk:apis:protocol:resources:providers:list-providers', actions: ['wait'] },
     ],
   }
 

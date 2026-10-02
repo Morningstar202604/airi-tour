@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import { Alert } from '@proj-airi/stage-ui/components'
+import { Alert } from '@wenlv/stage-ui/components'
 import { storeToRefs } from 'pinia'
 import { computed, onMounted, ref } from 'vue'
 import { useI18n } from 'vue-i18n'
 
-import { useChatContextStore } from '@proj-airi/stage-ui/stores/chat/context-store'
+import { useChatContextStore } from '@wenlv/stage-ui/stores/chat/context-store'
 
 const { t } = useI18n()
 const chatContextStore = useChatContextStore()

@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import type { KnowledgeHit, TourKnowledgeItem } from '@proj-airi/stage-ui/constants/tour/tour-knowledge'
+import type { KnowledgeHit, TourKnowledgeItem } from '@wenlv/stage-ui/constants/tour/tour-knowledge'
 
-import { searchTourKnowledge, TOUR_KNOWLEDGE_ITEMS, USER_INSTRUCTION_KEY, USER_KNOWLEDGE_KEY } from '@proj-airi/stage-ui/constants/tour/tour-knowledge'
-import { Button, FieldInput, FieldTextArea } from '@proj-airi/ui'
+import { searchTourKnowledge, TOUR_KNOWLEDGE_ITEMS, USER_INSTRUCTION_KEY, USER_KNOWLEDGE_KEY } from '@wenlv/stage-ui/constants/tour/tour-knowledge'
+import { Button, FieldInput, FieldTextArea } from '@wenlv/ui'
 import { computed, reactive, ref } from 'vue'
 
 // —— 用户自定义知识条目 ——

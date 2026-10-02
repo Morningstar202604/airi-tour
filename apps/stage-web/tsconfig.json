@@ -11,10 +11,10 @@
     ],
     "useDefineForClassFields": true,
     "paths": {
-      "@proj-airi/stage-ui/*": [
+      "@wenlv/stage-ui/*": [
         "../../packages/stage-ui/src/*"
       ],
-      "@proj-airi/stage-layouts/*": [
+      "@wenlv/stage-layouts/*": [
         "../../packages/stage-layouts/src/*"
       ]
     },

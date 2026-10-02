@@ -1,7 +1,7 @@
 import type { ComposerTranslation } from 'vue-i18n'
 
-import { isStageTamagotchi } from '@proj-airi/stage-shared'
-import { isWebGPUSupported } from '@proj-airi/stage-shared/webgpu'
+import { isStageTamagotchi } from '@wenlv/stage-shared'
+import { isWebGPUSupported } from '@wenlv/stage-shared/webgpu'
 import { createOpenAI } from '@xsai-ext/providers/create'
 import { z } from 'zod'
 
@@ -127,7 +127,7 @@ export const providerBrowserLocalAudioSpeech = defineProvider<LocalAudioConfig, 
   id: 'browser-local-audio-speech',
   name: 'Browser (Local)',
   nameLocalize: ({ t }) => t('settings.pages.providers.provider.browser-local-audio-speech.title'),
-  description: 'https://github.com/moeru-ai/xsai-transformers',
+  description: '本地推理引擎（transformers.js）',
   descriptionLocalize: ({ t }) => t('settings.pages.providers.provider.browser-local-audio-speech.description'),
   tasks: ['text-to-speech', 'tts'],
   icon: 'i-lobe-icons:huggingface',
@@ -141,14 +141,14 @@ export const providerBrowserLocalAudioTranscription = defineProvider<LocalAudioC
   id: 'browser-local-audio-transcription',
   name: 'Browser (Local)',
   nameLocalize: ({ t }) => t('settings.pages.providers.provider.browser-local-audio-transcription.title'),
-  description: 'https://github.com/moeru-ai/xsai-transformers',
+  description: '本地推理引擎（transformers.js）',
   descriptionLocalize: ({ t }) => t('settings.pages.providers.provider.browser-local-audio-transcription.description'),
   tasks: ['speech-to-text', 'automatic-speech-recognition', 'asr', 'stt'],
   icon: 'i-lobe-icons:huggingface',
   // NOTICE:
   // Hiding the provider keeps users from selecting one they cannot configure.
   // Its settings page (browser-local-audio-transcription.vue) renders <WIP />.
-  // Reported in https://github.com/moeru-ai/airi/issues/2297 (item 6).
+  // 已知问题记录（上游 item 6）
   // Removal condition: restore isBrowserAndMemoryEnough once the settings page is implemented.
   isAvailableBy: () => false,
   capabilities: {

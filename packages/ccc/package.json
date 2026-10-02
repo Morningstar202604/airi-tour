@@ -1,5 +1,5 @@
 {
-  "name": "@proj-airi/ccc",
+  "name": "@wenlv/ccc",
   "type": "module",
   "private": true,
   "exports": "./src/index.ts",

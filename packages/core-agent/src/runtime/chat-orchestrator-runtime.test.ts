@@ -1,11 +1,11 @@
-import type { GenerationProvider } from '@proj-airi/provider-inference'
+import type { GenerationProvider } from '@wenlv/provider-inference'
 import type { Message } from '@xsai/shared-chat'
 
 import type { Conversation } from '../messages/types'
 import type { ChatHistoryItem, ContextMessage, StreamingAssistantMessage } from '../types/chat'
 import type { StreamEvent, StreamOptions } from '../types/llm'
 
-import { ContextUpdateStrategy } from '@proj-airi/server-shared/types'
+import { ContextUpdateStrategy } from '@wenlv/server-shared/types'
 import { describe, expect, it, vi } from 'vitest'
 
 import { chatMessagesToTurns, conversationToChatMessages } from '../messages/chat-completions'

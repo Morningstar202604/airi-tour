@@ -4,7 +4,7 @@ import { BatchRenderer, Texture } from '@pixi/core'
 import { extensions } from '@pixi/extensions'
 import { Sprite } from '@pixi/sprite'
 import { Ticker, TickerPlugin } from '@pixi/ticker'
-import { coverRect } from '@proj-airi/stage-shared'
+import { coverRect } from '@wenlv/stage-shared'
 import { Live2DModel } from 'pixi-live2d-display/cubism4'
 import { onMounted, onUnmounted, ref, shallowRef, watch } from 'vue'
 

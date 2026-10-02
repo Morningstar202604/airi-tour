@@ -5,7 +5,7 @@ import type {
   AmbientLightMap,
   NormalizedRectangle,
   ScreenAmbientLightMode,
-} from '@proj-airi/stage-shared/screen-ambient-light'
+} from '@wenlv/stage-shared/screen-ambient-light'
 
 import { ALPHA_MODES, CLEAR_MODES, MIPMAP_MODES, SCALE_MODES, WRAP_MODES } from '@pixi/constants'
 import { BaseTexture, Filter, Texture } from '@pixi/core'
@@ -16,7 +16,7 @@ import {
   averageAmbientLightMap,
   linearToSrgbByte,
   wholeWindowRectangle,
-} from '@proj-airi/stage-shared/screen-ambient-light'
+} from '@wenlv/stage-shared/screen-ambient-light'
 import { clamp } from 'es-toolkit'
 
 /**

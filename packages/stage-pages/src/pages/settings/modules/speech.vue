@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { VoiceType } from '@proj-airi/stage-ui/composables'
+import type { VoiceType } from '@wenlv/stage-ui/composables'
 import type { SpeechProviderWithExtraOptions } from '@xsai-ext/providers/utils'
 
 import { errorMessageFrom } from '@moeru/std'
@@ -10,20 +10,20 @@ import {
   RadioCardSimple,
   TestDummyMarker,
   VoiceCardManySelect,
-} from '@proj-airi/stage-ui/components'
-import { useAnalytics } from '@proj-airi/stage-ui/composables'
-import { OFFICIAL_SPEECH_PROVIDER_ID, OFFICIAL_SPEECH_STREAMING_PROVIDER_ID } from '@proj-airi/stage-ui/libs/providers/providers/official'
-import { useAiriCardStore } from '@proj-airi/stage-ui/stores'
-import { useSpeechStore } from '@proj-airi/stage-ui/stores/modules/speech'
-import { useProviderConfigStore } from '@proj-airi/stage-ui/stores/providers/config'
-import { useProviderStore } from '@proj-airi/stage-ui/stores/providers/provider'
+} from '@wenlv/stage-ui/components'
+import { useAnalytics } from '@wenlv/stage-ui/composables'
+import { OFFICIAL_SPEECH_PROVIDER_ID, OFFICIAL_SPEECH_STREAMING_PROVIDER_ID } from '@wenlv/stage-ui/libs/providers/providers/official'
+import { useAiriCardStore } from '@wenlv/stage-ui/stores'
+import { useSpeechStore } from '@wenlv/stage-ui/stores/modules/speech'
+import { useProviderConfigStore } from '@wenlv/stage-ui/stores/providers/config'
+import { useProviderStore } from '@wenlv/stage-ui/stores/providers/provider'
 import {
   FieldCheckbox,
   FieldInput,
   FieldRange,
   Skeleton,
   Textarea,
-} from '@proj-airi/ui'
+} from '@wenlv/ui'
 import { generateSpeech } from '@xsai/generate-speech'
 import { storeToRefs } from 'pinia'
 import { computed, onMounted, onUnmounted, ref, watch } from 'vue'

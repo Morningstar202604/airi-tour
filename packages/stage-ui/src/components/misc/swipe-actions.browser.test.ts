@@ -1,6 +1,6 @@
-import type { SwipeActionsSide } from '@proj-airi/ui'
+import type { SwipeActionsSide } from '@wenlv/ui'
 
-import { SwipeActionsContent, SwipeActionsItem, SwipeActionsList, SwipeActionsRoot } from '@proj-airi/ui'
+import { SwipeActionsContent, SwipeActionsItem, SwipeActionsList, SwipeActionsRoot } from '@wenlv/ui'
 import { describe, expect, it } from 'vitest'
 import { render } from 'vitest-browser-vue'
 import { defineComponent, ref } from 'vue'

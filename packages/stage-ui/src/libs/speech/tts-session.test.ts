@@ -1,4 +1,4 @@
-import type { IntentOptions, PlaybackItem } from '@proj-airi/pipelines-audio'
+import type { IntentOptions, PlaybackItem } from '@wenlv/pipelines-audio'
 
 import type { PlaybackManagerSubset, StreamingSessionSnapshot } from './tts-session'
 
@@ -7,7 +7,7 @@ import { describe, expect, it, vi } from 'vitest'
 import { createStageTtsSession, createStreamingTtsSession } from './tts-session'
 
 // Lightweight IntentHandle stub. We do not import the real one from
-// `@proj-airi/pipelines-audio` because the segmenter adapter only needs a
+// `@wenlv/pipelines-audio` because the segmenter adapter only needs a
 // fixed subset, and constructing a full IntentHandle would drag in the
 // segmenter pipeline.
 function makeIntentStub(overrides: Partial<{ intentId: string }> = {}) {

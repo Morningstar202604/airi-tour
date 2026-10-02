@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import type { ModelSettingsRuntimeSnapshot } from './runtime'
 
-import { Live2DScene } from '@proj-airi/stage-ui-live2d'
-import { TachieScene } from '@proj-airi/stage-ui-tachie'
-import { ThreeScene, useModelStore } from '@proj-airi/stage-ui-three'
+import { Live2DScene } from '@wenlv/stage-ui-live2d'
+import { TachieScene } from '@wenlv/stage-ui-tachie'
+import { ThreeScene, useModelStore } from '@wenlv/stage-ui-three'
 import { useMouse } from '@vueuse/core'
 import { storeToRefs } from 'pinia'
 import { computed, ref, watch } from 'vue'

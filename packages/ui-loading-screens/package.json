@@ -1,5 +1,5 @@
 {
-  "name": "@proj-airi/ui-loading-screens",
+  "name": "@wenlv/ui-loading-screens",
   "type": "module",
   "private": true,
   "description": "A collection of loading screens that used by Project AIRI",
@@ -19,14 +19,14 @@
   },
   "dependencies": {
     "@moeru/std": "catalog:",
-    "@proj-airi/font-departure-mono": "workspace:^",
+    "@wenlv/font-departure-mono": "workspace:^",
     "@rive-app/canvas-lite": "catalog:",
     "@vueuse/core": "catalog:",
     "@vueuse/motion": "catalog:",
     "vue": "catalog:"
   },
   "devDependencies": {
-    "@proj-airi/ui": "workspace:^",
+    "@wenlv/ui": "workspace:^",
     "@unocss/reset": "catalog:",
     "@vitejs/plugin-vue": "catalog:",
     "vite": "catalog:",

@@ -3,7 +3,7 @@ import type { Tool } from '@xsai/shared-chat'
 import type { ChatAssistantMessage, ChatHistoryItem, ChatSlicesToolCallResult } from '../types/chat'
 
 import { errorMessageFrom } from '@moeru/std'
-import { chatContentToInputSegments } from '@proj-airi/core-agent'
+import { chatContentToInputSegments } from '@wenlv/core-agent'
 
 import { toolNameFrom } from './ai/chat-llm/tool-resolver'
 

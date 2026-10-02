@@ -1106,16 +1106,16 @@ pages:
             placeholder: zh-CN
       app-local-audio-transcription:
         title: 应用内（本地）
-        description: https://github.com/moeru-ai/xsai-transformers
+        description: 本地推理引擎（transformers.js）
       app-local-audio-speech:
         title: 应用内（本地）
-        description: https://github.com/moeru-ai/xsai-transformers
+        description: 本地推理引擎（transformers.js）
       browser-local-audio-transcription:
         title: 浏览器内（本地）
-        description: https://github.com/moeru-ai/xsai-transformers
+        description: 本地推理引擎（transformers.js）
       browser-local-audio-speech:
         title: 浏览器内（本地）
-        description: https://github.com/moeru-ai/xsai-transformers
+        description: 本地推理引擎（transformers.js）
       alibaba-cloud-model-studio:
         description: bailian.console.aliyun.com
         title: 阿里百炼

@@ -1,12 +1,12 @@
 import type { Session, User } from 'better-auth'
 
-import en from '@proj-airi/i18n/locales/en'
-import OfficialProviderSpeechStreamingPage from '@proj-airi/stage-pages/pages/settings/providers/speech/official-provider-speech-streaming.vue'
+import en from '@wenlv/i18n/locales/en'
+import OfficialProviderSpeechStreamingPage from '@wenlv/stage-pages/pages/settings/providers/speech/official-provider-speech-streaming.vue'
 
 import { errorMessageFrom } from '@moeru/std'
-import { useAuthStore } from '@proj-airi/stage-ui/stores/auth'
-import { useProviderConfigStore } from '@proj-airi/stage-ui/stores/providers/config'
-import { useProviderStore } from '@proj-airi/stage-ui/stores/providers/provider'
+import { useAuthStore } from '@wenlv/stage-ui/stores/auth'
+import { useProviderConfigStore } from '@wenlv/stage-ui/stores/providers/config'
+import { useProviderStore } from '@wenlv/stage-ui/stores/providers/provider'
 import { createPinia, setActivePinia } from 'pinia'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { render } from 'vitest-browser-vue'

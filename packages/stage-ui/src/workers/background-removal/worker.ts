@@ -18,7 +18,7 @@ import type {
 } from '../../libs/inference/protocol'
 
 import { AutoModel, AutoProcessor, env, RawImage } from '@huggingface/transformers'
-import { errorMessageFromValue } from '@proj-airi/stage-shared'
+import { errorMessageFromValue } from '@wenlv/stage-shared'
 
 import { MODEL_IDS, MODEL_NAMES } from '../../libs/inference/constants'
 import { classifyError, isRecoverable } from '../../libs/inference/protocol'

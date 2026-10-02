@@ -1,9 +1,9 @@
-import type { GenerationProvider } from '@proj-airi/provider-inference'
-import type { TraceEvent } from '@proj-airi/stage-shared'
+import type { GenerationProvider } from '@wenlv/provider-inference'
+import type { TraceEvent } from '@wenlv/stage-shared'
 
 import type { StreamEvent } from './ai/chat-llm/llm'
 
-import { defaultPerfTracer, exportCsv as exportCsvFile } from '@proj-airi/stage-shared'
+import { defaultPerfTracer, exportCsv as exportCsvFile } from '@wenlv/stage-shared'
 import { defineStore, storeToRefs } from 'pinia'
 import { ref } from 'vue'
 

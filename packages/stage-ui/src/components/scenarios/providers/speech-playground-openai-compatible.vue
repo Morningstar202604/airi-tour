@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { errorMessageFrom } from '@moeru/std'
-import { FieldCheckbox, FieldInput } from '@proj-airi/ui'
+import { FieldCheckbox, FieldInput } from '@wenlv/ui'
 import { computed, onUnmounted, ref } from 'vue'
 import { useI18n } from 'vue-i18n'
 

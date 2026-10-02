@@ -1,6 +1,6 @@
 import type { MaybeRefOrGetter } from 'vue'
 
-import { isStageWeb } from '@proj-airi/stage-shared'
+import { isStageWeb } from '@wenlv/stage-shared'
 import { breakpointsTailwind, useBreakpoints } from '@vueuse/core'
 import { computed, toValue } from 'vue'
 

@@ -4,7 +4,7 @@ import type { MaybeRefOrGetter } from 'vue'
 import type { BaseVADConfig } from '../../../libs/audio/vad'
 
 import { merge } from '@moeru/std'
-import { errorMessageFromValue, IOAttributes, IOSpanNames, IOSubsystems } from '@proj-airi/stage-shared'
+import { errorMessageFromValue, IOAttributes, IOSpanNames, IOSubsystems } from '@wenlv/stage-shared'
 import { ref, toRef, watch } from 'vue'
 
 import { startSpan } from '../../../composables/use-io-tracer'

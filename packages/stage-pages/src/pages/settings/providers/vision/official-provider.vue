@@ -2,11 +2,11 @@
 import {
   ProviderSettingsContainer,
   ProviderSettingsLayout,
-} from '@proj-airi/stage-ui/components'
-import { selectProviderMetadata } from '@proj-airi/stage-ui/libs'
-import { useAuthStore } from '@proj-airi/stage-ui/stores/auth'
-import { useProviderStore } from '@proj-airi/stage-ui/stores/providers/provider'
-import { Callout } from '@proj-airi/ui'
+} from '@wenlv/stage-ui/components'
+import { selectProviderMetadata } from '@wenlv/stage-ui/libs'
+import { useAuthStore } from '@wenlv/stage-ui/stores/auth'
+import { useProviderStore } from '@wenlv/stage-ui/stores/providers/provider'
+import { Callout } from '@wenlv/ui'
 import { computedAsync } from '@vueuse/core'
 import { storeToRefs } from 'pinia'
 import { useI18n } from 'vue-i18n'

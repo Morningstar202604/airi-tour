@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { useAuthStore } from '@proj-airi/stage-ui/stores/auth'
-import { useCharacterStore } from '@proj-airi/stage-ui/stores/characters'
-import { GhostButton } from '@proj-airi/ui'
+import { useAuthStore } from '@wenlv/stage-ui/stores/auth'
+import { useCharacterStore } from '@wenlv/stage-ui/stores/characters'
+import { GhostButton } from '@wenlv/ui'
 import { computed, onMounted } from 'vue'
 
 const characterStore = useCharacterStore()

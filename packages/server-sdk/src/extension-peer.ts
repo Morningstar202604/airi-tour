@@ -7,7 +7,7 @@ import type {
   WebSocketBaseEvent,
   WebSocketEventOptionalSource,
   WebSocketEvents,
-} from '@proj-airi/server-shared/types'
+} from '@wenlv/server-shared/types'
 
 import type { ClientOptions, ConnectOptions } from './client'
 

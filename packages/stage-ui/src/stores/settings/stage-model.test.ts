@@ -11,11 +11,11 @@ const { initialStageModelId, resetLegacyModelIdentity } = vi.hoisted(() => ({
   resetLegacyModelIdentity: vi.fn(),
 }))
 
-vi.mock('@proj-airi/stage-ui-three', () => ({
+vi.mock('@wenlv/stage-ui-three', () => ({
   useModelStore: () => ({ resetLegacyModelIdentity }),
 }))
 
-vi.mock('@proj-airi/stage-shared/composables', async () => {
+vi.mock('@wenlv/stage-shared/composables', async () => {
   const { refManualReset } = await import('@vueuse/core')
 
   return {

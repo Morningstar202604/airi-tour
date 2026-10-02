@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Checkbox } from '@proj-airi/ui'
+import { Checkbox } from '@wenlv/ui'
 import { ref } from 'vue'
 
 const checkedValue = ref(true)

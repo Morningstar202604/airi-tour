@@ -1,4 +1,4 @@
-import { useLocalStorageManualReset } from '@proj-airi/stage-shared/composables'
+import { useLocalStorageManualReset } from '@wenlv/stage-shared/composables'
 import { defineStore } from 'pinia'
 import { ref } from 'vue'
 import type { McpToolDescriptor } from '../tools/mcp'

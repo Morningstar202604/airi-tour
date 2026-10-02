@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import type { HearingTranscriptionResult } from '../../../stores/modules/hearing'
 
-import { errorMessageFromValue } from '@proj-airi/stage-shared'
-import { Button, FieldCombobox, FieldRange } from '@proj-airi/ui'
+import { errorMessageFromValue } from '@wenlv/stage-shared'
+import { Button, FieldCombobox, FieldRange } from '@wenlv/ui'
 import { until } from '@vueuse/core'
 import { computed, onUnmounted, ref, shallowRef, watch } from 'vue'
 import { useI18n } from 'vue-i18n'

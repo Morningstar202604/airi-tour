@@ -1,4 +1,4 @@
-import type { WebSocketBaseEvent, WebSocketEvent } from '@proj-airi/server-shared/types'
+import type { WebSocketBaseEvent, WebSocketEvent } from '@wenlv/server-shared/types'
 
 import { parse, stringify } from 'superjson'
 import { check, objectWithRest, pipe, safeParse, string, unknown } from 'valibot'

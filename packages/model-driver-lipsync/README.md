@@ -1,4 +1,4 @@
-# `@proj-airi/model-driver-lipsync`
+# `@wenlv/model-driver-lipsync`
 
 Shared lip-sync profiles and model-neutral mouth-driving policies for AIRI.
 
@@ -14,20 +14,20 @@ The package does not write weights to VRM expressions or MMD morphs. Each render
 
 ## Exports
 
-- `@proj-airi/model-driver-lipsync`: the Live2D driver.
-- `@proj-airi/model-driver-lipsync/shared/wlipsync`: the profile, types, and pure vowel driver.
-- `@proj-airi/model-driver-lipsync/runtime/wlipsync`: the browser-only audio-node factory.
+- `@wenlv/model-driver-lipsync`: the Live2D driver.
+- `@wenlv/model-driver-lipsync/shared/wlipsync`: the profile, types, and pure vowel driver.
+- `@wenlv/model-driver-lipsync/runtime/wlipsync`: the browser-only audio-node factory.
 
 The shared entry has no Web Audio side effects. Node-based tools and tests can import it safely.
 
 ## How To Use It
 
 ```ts
-import { createWLipSyncNode } from '@proj-airi/model-driver-lipsync/runtime/wlipsync'
+import { createWLipSyncNode } from '@wenlv/model-driver-lipsync/runtime/wlipsync'
 import {
   createWLipSyncVowelDriver,
   wlipsyncProfile,
-} from '@proj-airi/model-driver-lipsync/shared/wlipsync'
+} from '@wenlv/model-driver-lipsync/shared/wlipsync'
 
 const node = await createWLipSyncNode(audioContext, wlipsyncProfile)
 const driver = createWLipSyncVowelDriver()

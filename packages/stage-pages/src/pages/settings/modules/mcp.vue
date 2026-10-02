@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import { computed, ref, watch } from 'vue'
 import { useI18n } from 'vue-i18n'
-import { useMcpStore } from '@proj-airi/stage-ui/stores/mcp'
-import { createWebMcpRuntime, mcpListTools } from '@proj-airi/stage-ui/libs/mcp-web'
-import { createMcpTools } from '@proj-airi/stage-ui/tools/mcp'
-import { useLlmToolsStore } from '@proj-airi/stage-ui/stores/ai/chat-llm/tools'
+import { useMcpStore } from '@wenlv/stage-ui/stores/mcp'
+import { createWebMcpRuntime, mcpListTools } from '@wenlv/stage-ui/libs/mcp-web'
+import { createMcpTools } from '@wenlv/stage-ui/tools/mcp'
+import { useLlmToolsStore } from '@wenlv/stage-ui/stores/ai/chat-llm/tools'
 
 const { t } = useI18n()
 const mcpStore = useMcpStore()

@@ -1,4 +1,4 @@
-import type { Card } from '@proj-airi/ccc'
+import type { Card } from '@wenlv/ccc'
 
 import type { AiriExtension } from '../types/airiCard'
 

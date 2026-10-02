@@ -1,4 +1,4 @@
-import { portableProviderDefinitions } from '@proj-airi/provider-inference'
+import { portableProviderDefinitions } from '@wenlv/provider-inference'
 
 import { registerProviders } from './registry'
 

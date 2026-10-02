@@ -21,7 +21,7 @@ type ScrollableAreaOrientation = 'vertical' | 'horizontal' | 'both'
 // NOTICE:
 // Reka UI 2.10.3 clears both axis flags when either scrollbar unmounts.
 // Restore the requested flags after the scrollbar DOM update.
-// Source: https://github.com/moeru-ai/airi/pull/2399#discussion_r3886316598
+// Source: 上游 issue 讨论
 // Remove this controller when Reka only clears the axis owned by its scrollbar.
 const ScrollAreaAxisController = defineComponent({
   props: {

@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import type { ModelSettingsRuntimeSnapshot } from './runtime'
 
-import { tachieControlConfig, useTachie } from '@proj-airi/stage-ui-tachie'
-import { Button, FieldCheckbox, FieldRange } from '@proj-airi/ui'
+import { tachieControlConfig, useTachie } from '@wenlv/stage-ui-tachie'
+import { Button, FieldCheckbox, FieldRange } from '@wenlv/ui'
 import { storeToRefs } from 'pinia'
 import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'

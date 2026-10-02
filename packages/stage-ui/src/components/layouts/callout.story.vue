@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Callout } from '@proj-airi/ui'
+import { Callout } from '@wenlv/ui'
 </script>
 
 <template>
@@ -39,7 +39,7 @@ import { Callout } from '@proj-airi/ui'
           </div>
           <div>
             AIRI is open sourced at <div inline-flex translate-y-1 items-center gap-1>
-              <div i-simple-icons:github inline-block /><a decoration-underline decoration-dashed href="https://github.com/moeru-ai/airi" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <div i-simple-icons:github inline-block /><a decoration-underline decoration-dashed href="https://github.com/x33834/airi-tour" target="_blank" rel="noopener noreferrer">GitHub</a>
             </div>, if you want to check how we handle your credentials, feel free to inspect our code.
           </div>
         </div>

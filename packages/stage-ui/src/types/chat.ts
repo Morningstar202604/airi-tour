@@ -12,4 +12,4 @@ export type {
   ContextMessage,
   ErrorMessage,
   StreamingAssistantMessage,
-} from '@proj-airi/core-agent'
+} from '@wenlv/core-agent'

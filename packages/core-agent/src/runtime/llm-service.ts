@@ -1,4 +1,4 @@
-import type { GenerationRequest } from '@proj-airi/provider-inference'
+import type { GenerationRequest } from '@wenlv/provider-inference'
 import type { Usage } from '@xsai/shared-chat'
 
 import type { StreamEvent, StreamFromOptions, StreamOptions } from '../types/llm'
@@ -188,7 +188,7 @@ export function isToolRelatedError(error: unknown): boolean {
 //   "messages.0.content: Input should be a valid string"
 // and other variants that surface the same root cause.
 //
-// See: https://github.com/moeru-ai/airi/issues/1500
+// 参见上游 issue 讨论（技术背景）
 const CONTENT_ARRAY_RELATED_ERROR_PATTERNS: RegExp[] = [
   /messages\[\d+\][^"]*invalid type:\s*sequence,\s*expected\s+a\s+string/i,
   /messages\.\d+\.content[^"]*(?:expected|should be).*string/i,

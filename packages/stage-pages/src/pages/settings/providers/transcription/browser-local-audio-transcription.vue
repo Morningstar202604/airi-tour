@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { TranscriptionProviderSettings } from '@proj-airi/stage-ui/components'
+import { TranscriptionProviderSettings } from '@wenlv/stage-ui/components'
 </script>
 
 <template>

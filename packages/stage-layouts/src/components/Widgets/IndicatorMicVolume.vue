@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { useAudioAnalyzer } from '@proj-airi/stage-ui/composables'
-import { useAudioContext } from '@proj-airi/stage-ui/stores/audio'
-import { useSettingsAudioDevice } from '@proj-airi/stage-ui/stores/settings'
+import { useAudioAnalyzer } from '@wenlv/stage-ui/composables'
+import { useAudioContext } from '@wenlv/stage-ui/stores/audio'
+import { useSettingsAudioDevice } from '@wenlv/stage-ui/stores/settings'
 import { storeToRefs } from 'pinia'
 import { computed, onMounted, onUnmounted, watch } from 'vue'
 

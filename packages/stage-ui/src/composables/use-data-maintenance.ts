@@ -1,10 +1,10 @@
 import type { ChatSessionsExport } from '../types/chat-session'
 
-import { isStageTamagotchi } from '@proj-airi/stage-shared'
-import { useSettingsScreenAmbientLight } from '@proj-airi/stage-shared/stores/screen-ambient-light'
-import { useSettingsLive2d } from '@proj-airi/stage-ui-live2d/composables/live2d'
-import { useLive2dParams } from '@proj-airi/stage-ui-live2d/stores/model-parameters'
-import { useModelStore } from '@proj-airi/stage-ui-three'
+import { isStageTamagotchi } from '@wenlv/stage-shared'
+import { useSettingsScreenAmbientLight } from '@wenlv/stage-shared/stores/screen-ambient-light'
+import { useSettingsLive2d } from '@wenlv/stage-ui-live2d/composables/live2d'
+import { useLive2dParams } from '@wenlv/stage-ui-live2d/stores/model-parameters'
+import { useModelStore } from '@wenlv/stage-ui-three'
 
 import { useLive2DMotionMagicSettings } from '../features/motions/live2d'
 import { useChatStore } from '../stores/chat'

@@ -95,7 +95,7 @@ components.d.ts
 **/vscode-airi/LICENSE
 
 # Make it easy for devenv users to override their local environment.
-# See: https://github.com/moeru-ai/airi/pull/110#discussion_r2024378953
+# 参考：上游 pull 讨论（忽略规则不变）
 .direnv
 .pre-commit-config.yaml
 .envrc
@@ -159,3 +159,4 @@ packages/i18n/glossary/glossary.tbx
 
 /airi-docs/
 .worktrees/
+skills-lock.json

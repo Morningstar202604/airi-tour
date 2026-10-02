@@ -1,15 +1,15 @@
-import type { Conversation, StreamOptions } from '@proj-airi/core-agent'
-import type { GenerationProvider } from '@proj-airi/provider-inference'
+import type { Conversation, StreamOptions } from '@wenlv/core-agent'
+import type { GenerationProvider } from '@wenlv/provider-inference'
 
-import { streamFrom as coreStreamFrom, isContentArrayRelatedError, isToolRelatedError, modelKey } from '@proj-airi/core-agent'
+import { streamFrom as coreStreamFrom, isContentArrayRelatedError, isToolRelatedError, modelKey } from '@wenlv/core-agent'
 import { listModels } from '@xsai/model'
 import { defineStore } from 'pinia'
 import { ref } from 'vue'
 
 import { resolveLlmTools } from './tool-resolver'
 
-export type { StreamEvent, StreamOptions } from '@proj-airi/core-agent'
-export { isContentArrayRelatedError, isToolRelatedError } from '@proj-airi/core-agent'
+export type { StreamEvent, StreamOptions } from '@wenlv/core-agent'
+export { isContentArrayRelatedError, isToolRelatedError } from '@wenlv/core-agent'
 
 export const useLLM = defineStore('llm', () => {
   const toolsCompatibility = ref<Map<string, boolean>>(new Map())
@@ -45,7 +45,7 @@ export const useLLM = defineStore('llm', () => {
       // when the provider returned the Rust/serde-style "expected a string"
       // 400. We retry once inline so the user's failing turn recovers without
       // requiring them to resend; subsequent calls reuse the cached degrade.
-      // See: https://github.com/moeru-ai/airi/issues/1500
+      // 参见上游 issue 讨论
       if (isContentArrayRelatedError(err) && contentArrayCompatibility.value.get(key) !== false) {
         console.warn(`[llm] Auto-disabling content-part arrays for "${key}" and retrying once`)
         contentArrayCompatibility.value.set(key, false)

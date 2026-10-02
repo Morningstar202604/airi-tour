@@ -1,8 +1,8 @@
-import type { ChatRequestOptions, GenerationRequest } from '@proj-airi/provider-inference'
+import type { ChatRequestOptions, GenerationRequest } from '@wenlv/provider-inference'
 
 import type { ModelInfo, ProviderModelCatalog, VoiceInfo } from '../../types'
 
-import { compatibleProtocols, generationProtocolOptions } from '@proj-airi/provider-inference'
+import { compatibleProtocols, generationProtocolOptions } from '@wenlv/provider-inference'
 import { z } from 'zod'
 
 import { getAuthToken } from '../../../../libs/auth'
@@ -176,7 +176,7 @@ export const providerOfficialSpeech = defineProvider({
 
       // Shape aligned with unspeech's types.ListVoicesResponse, plus the
       // `recommended` field our server injects from configKV DEFAULT_TTS_VOICES.
-      // https://github.com/moeru-ai/unspeech/blob/main/pkg/backend/types/voices.go
+      // 上游 TTS 类型定义
       const data = await res.json() as {
         voices?: {
           id: string

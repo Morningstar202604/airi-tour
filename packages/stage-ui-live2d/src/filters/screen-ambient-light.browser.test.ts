@@ -3,7 +3,7 @@ import type {
   AmbientLightFilterOptions,
   AmbientLightMap,
   ScreenAmbientLightMode,
-} from '@proj-airi/stage-shared/screen-ambient-light'
+} from '@wenlv/stage-shared/screen-ambient-light'
 
 import { Application } from '@pixi/app'
 import { BatchRenderer, Renderer, Texture } from '@pixi/core'
@@ -18,7 +18,7 @@ import {
   createAmbientLightMap,
   relativeLuminance,
   srgbToLinear,
-} from '@proj-airi/stage-shared/screen-ambient-light'
+} from '@wenlv/stage-shared/screen-ambient-light'
 import { afterAll, describe, expect, it } from 'vitest'
 
 import { ScreenAmbientLightFilter } from './screen-ambient-light'
